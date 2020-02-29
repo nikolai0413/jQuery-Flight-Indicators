@@ -24,7 +24,7 @@
 		}, options );
 
 		var constants = {
-			pitch_bound:30,
+			pitch_bound:90,
 			vario_bound : 1.95,
 			airspeed_bound_l : 0,
 			airspeed_bound_h : 160
@@ -75,9 +75,9 @@
 			if(pitch>constants.pitch_bound){pitch = constants.pitch_bound;}
 			else if(pitch<-constants.pitch_bound){pitch = -constants.pitch_bound;}
 			placeholder.each(function(){
-				$(this).find('div.instrument.attitude div.roll div.pitch').css('top', pitch*0.7 + '%');
+				$(this).find('div.instrument.attitude div.roll div.pitch').css('top', pitch*0.496 + '%');
 			});
-		}
+		}	
 
 		function _setHeading(heading){
 			placeholder.each(function(){
