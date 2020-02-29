@@ -1,0 +1,19 @@
+{
+  "name": "jquery-flight-indicators",
+  "version": "1.0.0",
+  "description": "Modified jquery flight indicators for Rovx12",
+  "main": "js/jquery.flightindicators.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nikolai0413/jQuery-Flight-Indicators.git"
+  },
+  "author": "Nicolas Fransen",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/nikolai0413/jQuery-Flight-Indicators/issues"
+  },
+  "homepage": "https://github.com/nikolai0413/jQuery-Flight-Indicators#readme"
+}

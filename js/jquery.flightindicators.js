@@ -5,7 +5,8 @@
 * 
 * https://github.com/sebmatton/jQuery-Flight-Indicators
 */
-(function($) {
+
+module.exports = function attachJquery($) {
 	function FlightIndicator( placeholder, type, options ) {
 		// Initial configuration
 		var attitude = this;
@@ -170,4 +171,4 @@
 			$.flightIndicator(this, type, options);
 		});
 	}
-}( jQuery ));
+};
